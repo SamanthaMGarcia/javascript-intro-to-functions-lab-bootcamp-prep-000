@@ -7,14 +7,14 @@ function whisper(string) {
   return string.toLowerCase()
 }
 function logShout(string) {
-  console.log("HELLO")
+  console.log(string.toUpperCase())
 }
 function logWhisper(string) {
-  console.log("hello")
+  console.log(string.toLowerCase())
 }
 function sayHiToGrandma(string) {
-  if ( ===) {
-    console.log("Refilling food bowl.")
+  if (string === "I love you, Grandma.") {
+    return "I love you, too."
   } else if (dog === "thirsty") {
     console.log("Refilling water bowl.")
   } else {
